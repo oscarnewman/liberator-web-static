@@ -104,7 +104,6 @@ $text-inputs-list: 'input[type="color"]',
                    'input[type="time"]',
                    'input[type="url"]',
                    'input[type="week"]',
-                   'input:not([type])',
                    'textarea';
 
 $all-text-inputs:        assign-inputs($text-inputs-list);
