@@ -6,4 +6,8 @@ $( document ).ready(function() {
     lessThanAMinuteString: '<1 min'
   });
 
+  $('header').readingTime({
+        remotePath: 'article.html',
+        remoteTarget: 'article'
+    });
 });
