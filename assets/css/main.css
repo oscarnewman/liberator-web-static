@@ -493,6 +493,8 @@ p.byline {
   p.byline .author {
     font-weight: 700;
     text-transform: uppercase; }
+  p.byline.byline-light {
+    color: rgba(0, 0, 0, 0.56); }
 
 section.photo-of-the-day {
   margin: 40px 0;
@@ -707,6 +709,77 @@ footer {
     font-size: 12px;
     margin: 0;
     padding: 0; }
+
+article {
+  *zoom: 1;
+  width: auto;
+  max-width: 900px;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 40px;
+  font-family: "Lora";
+  font-size: 20px;
+  line-height: 34px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: rgba(0, 0, 0, 0.75);
+  letter-spacing: 0.01em; }
+  article:before, article:after {
+    content: '';
+    display: table; }
+  article:after {
+    clear: both; }
+  article p {
+    margin-bottom: 30px; }
+  article .pull-quote {
+    *zoom: 1;
+    width: auto;
+    max-width: 630px;
+    float: none;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0;
+    padding-right: 0;
+    color: #8E44AD;
+    line-height: 49px;
+    margin-bottom: 70px;
+    margin-top: 50px;
+    font-family: "Open Sans";
+    font-weight: 200;
+    font-size: 36px;
+    font-style: italic; }
+    article .pull-quote:before, article .pull-quote:after {
+      content: '';
+      display: table; }
+    article .pull-quote:after {
+      clear: both; }
+  article .image {
+    font-family: "Open Sans"; }
+    article .image img {
+      width: 100%;
+      margin-bottom: 6px; }
+    article .image p {
+      font-size: 14px;
+      line-height: 19px;
+      color: rgba(0, 0, 0, 0.5); }
+      article .image p.byline {
+        margin-bottom: 2px; }
+  article .social {
+    text-align: center;
+    margin: 60px 0; }
+    article .social a {
+      margin: 10px;
+      -webkit-transition: opacity, 0.2s;
+      transition: opacity, 0.2s; }
+      article .social a:hover {
+        opacity: 0.5;
+        -webkit-transition: opacity, 0.2s;
+        transition: opacity, 0.2s; }
 
 header.feature {
   background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/img/tmp/street.jpg");
