@@ -820,6 +820,11 @@ header.feature {
       font-weight: 200;
       color: white;
       margin-bottom: 5px; }
+      header.feature .featured-article p.subtitle .time {
+        font-size: 18px;
+        margin-left: 10px;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.6); }
     header.feature .featured-article .byline {
       margin-bottom: 80px; }
 
